@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #870581}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #97007e}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #b50013}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #885d30}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #000000; min-height: 16.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #0d6401}
+    span.s1 {color: #97007e}
+    span.s2 {color: #6f5a1e}
+    span.s3 {color: #b50013}
+    span.s4 {color: #000000}
+    span.s5 {color: #1400c4}
+    span.s6 {color: #885d30}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE <span class="s1">html</span>&gt;</p>
+<p class="p2">&lt;html <span class="s2">lang</span>=<span class="s3">"en"</span>&gt;</p>
+<p class="p2">&lt;head&gt;</p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;meta <span class="s2">charset</span>=<span class="s3">"UTF-8"</span>&gt;</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;meta </span><span class="s2">name</span><span class="s1">=</span>"viewport"<span class="s1"> </span><span class="s2">content</span><span class="s1">=</span>"width=device-width, initial-scale=1.0"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">    </span><span class="s1">&lt;title&gt;</span>Book Review App<span class="s1">&lt;/title&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;style&gt;</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">body</span> {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">font-family</span>: Arial, sans-serif;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">max-width</span>: <span class="s5">600px</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">margin</span>: auto;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">padding</span>: <span class="s5">20px</span>;</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s6">.hidden</span> { <span class="s1">display</span>: none; }</p>
+<p class="p5"><span class="s4"><span class="Apple-converted-space">        </span></span>.review-card<span class="s4"> {</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">border</span>: <span class="s5">1px</span> solid <span class="s5">#ddd</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">padding</span>: <span class="s5">10px</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">margin</span>: <span class="s5">10px</span> <span class="s5">0</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">border-radius</span>: <span class="s5">5px</span>;</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">img</span> { <span class="s1">width</span>: <span class="s5">100px</span>; <span class="s1">height</span>: auto; <span class="s1">margin-top</span>: <span class="s5">10px</span>; }</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">button</span> { <span class="s1">padding</span>: <span class="s5">8px</span>; <span class="s1">cursor</span>: pointer; <span class="s1">margin-top</span>: <span class="s5">5px</span>; }</p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;/style&gt;</p>
+<p class="p2">&lt;/head&gt;</p>
+<p class="p2">&lt;body&gt;</p>
+<p class="p6"><br></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;!-- Login Page --&gt;</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;div </span><span class="s2">id</span><span class="s1">=</span>"login-section"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;h2&gt;</span>Login<span class="s1">&lt;/h2&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"email"<span class="s1"> </span><span class="s2">id</span><span class="s1">=</span>"email-input"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"Enter your email"<span class="s1">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span>&lt;button <span class="s2">onclick</span>=<span class="s3">"login()"</span>&gt;<span class="s4">Login</span>&lt;/button&gt;</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;p </span><span class="s2">id</span><span class="s1">=</span>"login-error"<span class="s1"> </span><span class="s2">style</span><span class="s1">=</span>"color: red;"<span class="s1">&gt;&lt;/p&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;/div&gt;</p>
+<p class="p6"><br></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;!-- Main App --&gt;</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;div </span><span class="s2">id</span><span class="s1">=</span>"app-section"<span class="s1"> </span><span class="s2">class</span><span class="s1">=</span>"hidden"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;h2&gt;</span>Book Review App<span class="s1">&lt;/h2&gt;</span></p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;div&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"text"<span class="s1"> </span><span class="s2">id</span><span class="s1">=</span>"book-title"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"Book Title"<span class="s1">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;textarea </span><span class="s2">id</span><span class="s1">=</span>"book-review"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"Write your review..."<span class="s1">&gt;&lt;/textarea&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"number"<span class="s1"> </span><span class="s2">id</span><span class="s1">=</span>"book-rating"<span class="s1"> </span><span class="s2">min</span><span class="s1">=</span>"1"<span class="s1"> </span><span class="s2">max</span><span class="s1">=</span>"10"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"Rating (1-10)"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">&lt;br&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"file"<span class="s1"> </span><span class="s2">id</span><span class="s1">=</span>"book-cover"<span class="s1"> </span><span class="s2">accept</span><span class="s1">=</span>"image/*"<span class="s1"> </span><span class="s2">onchange</span><span class="s1">=</span>"previewImage(event)"<span class="s1">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"file"<span class="s1"> </span><span class="s2">accept</span><span class="s1">=</span>"image/*"<span class="s1"> </span><span class="s2">capture</span><span class="s1">=</span>"environment"<span class="s1"> </span><span class="s2">onchange</span><span class="s1">=</span>"previewImage(event)"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">&lt;br&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;img </span><span class="s2">id</span><span class="s1">=</span>"preview"<span class="s1"> </span><span class="s2">class</span><span class="s1">=</span>"hidden"<span class="s1">&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">&lt;br&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">&lt;button </span><span class="s2">onclick</span><span class="s1">=</span><span class="s3">"submitReview()"</span><span class="s1">&gt;</span>Submit Review<span class="s1">&lt;/button&gt;</span></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;h3&gt;</span>Reviews<span class="s1">&lt;/h3&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;div </span><span class="s2">id</span><span class="s1">=</span>"reviews-container"<span class="s1">&gt;&lt;/div&gt;</span></p>
+<p class="p6"><br></p>
+<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span></span>&lt;!-- Admin Panel --&gt;</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">&lt;h3&gt;</span>Invite Users<span class="s1">&lt;/h3&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;input </span><span class="s2">type</span><span class="s1">=</span>"email"<span class="s1"> </span><span class="s2">id</span><span class="s1">=</span>"invite-email"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"Enter email to invite"<span class="s1">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span>&lt;button <span class="s2">onclick</span>=<span class="s3">"inviteUser()"</span>&gt;<span class="s4">Invite</span>&lt;/button&gt;</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;ul </span><span class="s2">id</span><span class="s1">=</span>"user-list"<span class="s1">&gt;&lt;/ul&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;/div&gt;</p>
+<p class="p6"><br></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;script&gt;</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">const</span> allowedUsers = JSON.parse(localStorage.getItem(<span class="s3">'allowedUsers'</span>)) || [<span class="s3">"user1@example.com"</span>, <span class="s3">"user2@example.com"</span>];</p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">const</span> reviews = [];</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> login() {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> email = document.getElementById(<span class="s3">"email-input"</span>).value;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">if</span> (allowedUsers.includes(email)) {</p>
+<p class="p4"><span class="Apple-converted-space">                </span>document.getElementById(<span class="s3">"login-section"</span>).classList.add(<span class="s3">"hidden"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>document.getElementById(<span class="s3">"app-section"</span>).classList.remove(<span class="s3">"hidden"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>} <span class="s1">else</span> {</p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">                </span>document.getElementById(</span>"login-error"<span class="s4">).innerText = </span>"Access denied. You are not on the invite list."<span class="s4">;</span></p>
+<p class="p4"><span class="Apple-converted-space">            </span>}</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> inviteUser() {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> newEmail = document.getElementById(<span class="s3">"invite-email"</span>).value;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">if</span> (newEmail &amp;&amp; !allowedUsers.includes(newEmail)) {</p>
+<p class="p4"><span class="Apple-converted-space">                </span>allowedUsers.push(newEmail);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>localStorage.setItem(<span class="s3">'allowedUsers'</span>, JSON.stringify(allowedUsers));</p>
+<p class="p4"><span class="Apple-converted-space">                </span>updateUserList();</p>
+<p class="p4"><span class="Apple-converted-space">                </span>alert(<span class="s3">`Invitation sent to </span>${newEmail}<span class="s3">`</span>);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>}</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> updateUserList() {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> userList = document.getElementById(<span class="s3">"user-list"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>userList.innerHTML = <span class="s3">""</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span>allowedUsers.forEach(user =&gt; {</p>
+<p class="p4"><span class="Apple-converted-space">                </span><span class="s1">const</span> li = document.createElement(<span class="s3">"li"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>li.innerText = user;</p>
+<p class="p4"><span class="Apple-converted-space">                </span>userList.appendChild(li);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>});</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> previewImage(event) {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> reader = <span class="s1">new</span> FileReader();</p>
+<p class="p4"><span class="Apple-converted-space">            </span>reader.onload = <span class="s1">function</span> () {</p>
+<p class="p4"><span class="Apple-converted-space">                </span><span class="s1">const</span> preview = document.getElementById(<span class="s3">"preview"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>preview.src = reader.result;</p>
+<p class="p4"><span class="Apple-converted-space">                </span>preview.classList.remove(<span class="s3">"hidden"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>};</p>
+<p class="p4"><span class="Apple-converted-space">            </span>reader.readAsDataURL(event.target.files[<span class="s5">0</span>]);</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> submitReview() {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> bookTitle = document.getElementById(<span class="s3">"book-title"</span>).value;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> bookReview = document.getElementById(<span class="s3">"book-review"</span>).value;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> bookRating = document.getElementById(<span class="s3">"book-rating"</span>).value;</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> bookCover = document.getElementById(<span class="s3">"preview"</span>).src;</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">if</span> (bookTitle &amp;&amp; bookReview &amp;&amp; bookRating) {</p>
+<p class="p4"><span class="Apple-converted-space">                </span><span class="s1">const</span> newReview = { bookTitle, bookReview, bookRating, bookCover };</p>
+<p class="p4"><span class="Apple-converted-space">                </span>reviews.push(newReview);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>displayReviews();</p>
+<p class="p4"><span class="Apple-converted-space">            </span>}</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span><span class="s1">function</span> displayReviews() {</p>
+<p class="p4"><span class="Apple-converted-space">            </span><span class="s1">const</span> reviewContainer = document.getElementById(<span class="s3">"reviews-container"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>reviewContainer.innerHTML = <span class="s3">""</span>;</p>
+<p class="p4"><span class="Apple-converted-space">            </span>reviews.forEach(review =&gt; {</p>
+<p class="p4"><span class="Apple-converted-space">                </span><span class="s1">const</span> reviewCard = document.createElement(<span class="s3">"div"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>reviewCard.classList.add(<span class="s3">"review-card"</span>);</p>
+<p class="p4"><span class="Apple-converted-space">                </span>reviewCard.innerHTML = <span class="s3">`</span></p>
+<p class="p3"><span class="Apple-converted-space">                    </span>&lt;h4&gt;<span class="s4">${review.bookTitle}</span>&lt;/h4&gt;</p>
+<p class="p3"><span class="Apple-converted-space">                    </span>&lt;p&gt;<span class="s4">${review.bookReview}</span>&lt;/p&gt;</p>
+<p class="p3"><span class="Apple-converted-space">                    </span>&lt;p&gt;&lt;strong&gt;Rating:&lt;/strong&gt; <span class="s4">${review.bookRating}</span>/10&lt;/p&gt;</p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">                    </span></span>${review.bookCover ? <span class="s3">`&lt;img src="</span>${review.bookCover}<span class="s3">"&gt;`</span> : <span class="s3">""</span>}</p>
+<p class="p3"><span class="Apple-converted-space">                </span>`<span class="s4">;</span></p>
+<p class="p4"><span class="Apple-converted-space">                </span>reviewContainer.appendChild(reviewCard);</p>
+<p class="p4"><span class="Apple-converted-space">            </span>});</p>
+<p class="p4"><span class="Apple-converted-space">        </span>}</p>
+<p class="p6"><br></p>
+<p class="p4"><span class="Apple-converted-space">        </span>updateUserList();</p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>&lt;/script&gt;</p>
+<p class="p6"><br></p>
+<p class="p2">&lt;/body&gt;</p>
+<p class="p2">&lt;/html&gt;</p>
+</body>
+</html>
